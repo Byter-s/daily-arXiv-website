@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Byter">
+
+
+
+
+
+
+
+<title>2025-09-06 | Daily arXiv</title>
+
+
+
+    <link rel="icon" href="/icon.png">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+</style>
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/frame.js"></script>
+    
+
+
+
+
+
+
+<script src='https://unpkg.com/valine@1.4.16/dist/Valine.min.js'></script>
+
+
+
+  <meta name="generator" content="Hexo 7.3.0"></head>
+  <body>
+    <div class="mask-border">
+    </div>
+
+    <div class="wrapper">
+
+      <div class="header">
+  <div class="flex-container">
+    <div class="header-inner">
+      <div class="site-brand-container">
+        <a href="/">
+          
+            Daily arXiv.
+          
+        </a>
+      </div>
+      <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
+        Menu
+      </div>
+      <nav class="site-nav">
+        <ul class="menu-list">
+          
+            
+              <li class="menu-item">
+                <a href="/">Home</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/archives/">Archive</a>
+              </li> 
+                   
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main">
+        <div class="flex-container">
+          <article id="post">
+
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
+            
+        </div>
+        <div class="post-title">
+            
+            
+                2025-09-06
+            
+            
+        </div>
+        <span class="post-date">
+            Sep 6, 2025
+        </span>
+    </div>
+    <div class="post-img">
+        
+            <div class="h-line-primary"></div>
+              
+    </div>
+</div>
+    <div class="post-content">
+    <div id=toc></div>
+
+<h1 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a>Table of Contents</h1><ul>
+<li><a href="#cs.CL">cs.CL</a> [Total: 3]</li>
+<li><a href="#cs.CV">cs.CV</a> [Total: 1]</li>
+</ul>
+<div id='cs.CL'></div>
+
+<h1 id="cs-CL-Back"><a href="#cs-CL-Back" class="headerlink" title="cs.CL [Back]"></a>cs.CL <a href="#toc">[Back]</a></h1><h3 id="1-Speech-Based-Cognitive-Screening-A-Systematic-Evaluation-of-LLM-Adaptation-Strategies"><a href="#1-Speech-Based-Cognitive-Screening-A-Systematic-Evaluation-of-LLM-Adaptation-Strategies" class="headerlink" title="[1] Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies"></a>[1] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2509.03525">Speech-Based Cognitive Screening: A Systematic Evaluation of LLM Adaptation Strategies</a></h3><p><em>Fatemeh Taherinezhad,Mohamad Javad Momeni Nezhad,Sepehr Karimi,Sina Rashidi,Ali Zolnour,Maryam Dadkhah,Yasaman Haghbin,Hossein AzadMaleki,Maryam Zolnoori</em></p>
+<p>Main category: cs.CL</p>
+<p>TL;DR: 论文系统评估了大型语言模型在基于语音的认知筛查中的适应性策略，分析了不同方法在痴呆检测中的表现。</p>
+<details>
+  <summary>Details</summary>
+Motivation: 由于超半数的美国成年人患有未被诊断的阿尔茨海默病及相关痴呆，基于语音的筛查提供了一种可扩展的检测方法，研究旨在优化模型适应策略。
+
+<p>Contribution: 论文比较了多种适应策略，包括上下文学习、推理增强提示、参数高效微调和多模态集成，并发现类中心示例选择对小模型改进显著。</p>
+<p>Method: 评估了九种纯文本模型和三种多模态音频-文本模型，采用了多种适应策略如示范选择、推理设计和微调方法。</p>
+<p>Result: 结果表明，类中心示例在上下文学习中表现最佳，推理增强改进了小模型，而令牌级微调通常得分最高。多模态模型表现良好但未超越最佳纯文本模型。</p>
+<p>Insight: 模型适应策略（如示范选择、推理设计和微调方法）对痴呆检测至关重要，且开放权重的适配模型可以匹配或超越商业系统。</p>
+<p>Abstract: Over half of US adults with Alzheimer disease and related dementias remain undiagnosed, and speech-based screening offers a scalable detection approach. We compared large language model adaptation strategies for dementia detection using the DementiaBank speech corpus, evaluating nine text-only models and three multimodal audio-text models on recordings from DementiaBank speech corpus. Adaptations included in-context learning with different demonstration selection policies, reasoning-augmented prompting, parameter-efficient fine-tuning, and multimodal integration. Results showed that class-centroid demonstrations achieved the highest in-context learning performance, reasoning improved smaller models, and token-level fine-tuning generally produced the best scores. Adding a classification head substantially improved underperforming models. Among multimodal models, fine-tuned audio-text systems performed well but did not surpass the top text-only models. These findings highlight that model adaptation strategies, including demonstration selection, reasoning design, and tuning method, critically influence speech-based dementia detection, and that properly adapted open-weight models can match or exceed commercial systems.</p>
+</details>
+
+
+<h3 id="2-Enhancing-Speech-Large-Language-Models-through-Reinforced-Behavior-Alignment"><a href="#2-Enhancing-Speech-Large-Language-Models-through-Reinforced-Behavior-Alignment" class="headerlink" title="[2] Enhancing Speech Large Language Models through Reinforced Behavior Alignment"></a>[2] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2509.03526">Enhancing Speech Large Language Models through Reinforced Behavior Alignment</a></h3><p><em>Yansong Liu,Jiateng Li,Yuan Liu</em></p>
+<p>Main category: cs.CL</p>
+<p>TL;DR: 本文提出了一种强化行为对齐（RBA）框架，通过自合成数据和强化学习提升语音大语言模型（SpeechLMs）的指令跟随能力，无需人工标注。</p>
+<details>
+  <summary>Details</summary>
+Motivation: 语音大语言模型在跨模态处理中存在性能差距，尤其在动态语音输入时表现不佳，需要一种无需人工标注的高效对齐方法。
+
+<p>Contribution: 提出RBA框架，通过自生成对齐数据和强化学习，显著提升SpeechLMs的指令跟随能力，并在多项任务中达到SOTA。</p>
+<p>Method: 利用强教师LLM自合成对齐数据，采用强化学习对齐SpeechLMs行为，避免依赖人工标注。</p>
+<p>Result: RBA在指令跟随、语音问答及语音转文本任务中表现优异，超越传统蒸馏基线。</p>
+<p>Insight: 自合成数据和强化学习的结合为跨模态对齐提供了一种高效且可扩展的解决方案。</p>
+<p>Abstract: The recent advancements of Large Language Models (LLMs) have spurred considerable research interest in extending their linguistic capabilities beyond text to other modalities, which leads to emergence of speech-based LLMs (SpeechLMs) with capability of processing user request in either speech or textual formats. However, owing to inter-modal discrepancies, these SpeechLMs still exhibit a significant performance gap compared to their text-based LLM counterparts in instruction-following, particularly when confronted with the dynamic and variable nature of user speech. To address this challenge, this paper introduces a framework termed Reinforced Behavior Alignment (RBA), designed to bolster the language generation proficiency of SpeechLMs. Instead of relying on supervised fine-tuning from human annotations, RBA employs a self-synthesis methodology to generate extensive, high-fidelity alignment data by a powerful teacher LLM. Then SpeechLMs is aligned its behavior with that of a teacher using a reinforcement learning-based approach. Experimental results demonstrate that this method effectively enhances the instruction-following capabilities of SpeechLMs that outperform conventional distillation baselines. Crucially, we demonstrate that RBA can be seamlessly extended to tasks such including spoken question answering and speech-to-text translation, attaining state-of-the-art performance on open benchmarks with only self-generated data.</p>
+</details>
+
+
+<h3 id="3-The-ProLiFIC-dataset-Leveraging-LLMs-to-Unveil-the-Italian-Lawmaking-Process"><a href="#3-The-ProLiFIC-dataset-Leveraging-LLMs-to-Unveil-the-Italian-Lawmaking-Process" class="headerlink" title="[3] The ProLiFIC dataset: Leveraging LLMs to Unveil the Italian Lawmaking Process"></a>[3] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2509.03528">The ProLiFIC dataset: Leveraging LLMs to Unveil the Italian Lawmaking Process</a></h3><p><em>Matilde Contestabile,Chiara Ferrara,Alberto Giovannetti,Giovanni Parrillo,Andrea Vandin</em></p>
+<p>Main category: cs.CL</p>
+<p>TL;DR: 论文介绍了ProLiFIC数据集，该数据集利用大语言模型（LLMs）从意大利Normattiva门户的非结构化数据中提取信息，构建了1987年至2022年意大利立法过程的事件日志，为法律领域的流程挖掘（PM）提供了高质量的基准数据集。</p>
+<details>
+  <summary>Details</summary>
+Motivation: 目前法律领域的流程挖掘受限于数据可访问性和质量，亟需高质量的数据集支持研究和应用。
+
+<p>Contribution: 提出了ProLiFIC数据集，通过LLMs从非结构化数据中构建了意大利立法过程的全面事件日志，填补了法律流程挖掘的数据空白。</p>
+<p>Method: 利用LLMs处理和结构化Normattiva门户的非结构化数据，生成可用的流程挖掘事件日志。</p>
+<p>Result: ProLiFIC数据集为法律流程挖掘提供了高质量的数据支持，并展示了初步分析实例。</p>
+<p>Insight: LLMs在非结构化数据处理和法律领域的流程挖掘中具有巨大潜力，ProLiFIC可作为推动相关研究的重要基准。</p>
+<p>Abstract: Process Mining (PM), initially developed for industrial and business contexts, has recently been applied to social systems, including legal ones. However, PM’s efficacy in the legal domain is limited by the accessibility and quality of datasets. We introduce ProLiFIC (Procedural Lawmaking Flow in Italian Chambers), a comprehensive event log of the Italian lawmaking process from 1987 to 2022. Created from unstructured data from the Normattiva portal and structured using large language models (LLMs), ProLiFIC aligns with recent efforts in integrating PM with LLMs. We exemplify preliminary analyses and propose ProLiFIC as a benchmark for legal PM, fostering new developments.</p>
+</details>
+
+
+<div id='cs.CV'></div>
+
+<h1 id="cs-CV-Back"><a href="#cs-CV-Back" class="headerlink" title="cs.CV [Back]"></a>cs.CV <a href="#toc">[Back]</a></h1><h3 id="4-Towards-Efficient-General-Feature-Prediction-in-Masked-Skeleton-Modeling"><a href="#4-Towards-Efficient-General-Feature-Prediction-in-Masked-Skeleton-Modeling" class="headerlink" title="[4] Towards Efficient General Feature Prediction in Masked Skeleton Modeling"></a>[4] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2509.03609">Towards Efficient General Feature Prediction in Masked Skeleton Modeling</a></h3><p><em>Shengkai Sun,Zefan Zhang,Jianfeng Dong,Zhiyong Cheng,Xiaojun Chang,Meng Wang</em></p>
+<p>Main category: cs.CV</p>
+<p>TL;DR: 该论文提出了一种高效的通用特征预测框架（GFP），用于掩模骨架建模，通过高层次特征预测替代传统的低层次重建，显著提升了计算效率和语义表示能力。</p>
+<details>
+  <summary>Details</summary>
+Motivation: 现有掩模自编码器（MAE）方法在骨架行为识别中通常局限于低层次的关节坐标重建，导致计算冗余和语义表示不足。论文旨在通过高层次特征预测来解决这些问题。
+
+<p>Contribution: 提出了通用特征预测框架（GFP），通过动态生成多样化的监督信号和引入约束优化，实现了高效的骨架建模，并在计算效率和表示质量上取得显著提升。</p>
+<p>Method: 采用协作学习框架，结合轻量级目标生成网络动态生成多层次的时空监督信号，并通过约束优化确保特征多样性且避免模型崩溃。</p>
+<p>Result: 在NTU RGB+D 60、NTU RGB+D 120和PKU-MMD数据集上，GFP实现了6.2倍训练加速，并在下游任务中达到领先性能。</p>
+<p>Insight: 高层次特征预测能更高效地捕捉骨架数据的语义信息，动态监督信号生成和约束优化是提升模型性能的关键。</p>
+<p>Abstract: Recent advances in the masked autoencoder (MAE) paradigm have significantly propelled self-supervised skeleton-based action recognition. However, most existing approaches limit reconstruction targets to raw joint coordinates or their simple variants, resulting in computational redundancy and limited semantic representation. To address this, we propose a novel General Feature Prediction framework (GFP) for efficient mask skeleton modeling. Our key innovation is replacing conventional low-level reconstruction with high-level feature prediction that spans from local motion patterns to global semantic representations. Specifically, we introduce a collaborative learning framework where a lightweight target generation network dynamically produces diversified supervision signals across spatial-temporal hierarchies, avoiding reliance on pre-computed offline features. The framework incorporates constrained optimization to ensure feature diversity while preventing model collapse. Experiments on NTU RGB+D 60, NTU RGB+D 120 and PKU-MMD demonstrate the benefits of our approach: Computational efficiency (with 6.2$\times$ faster training than standard masked skeleton modeling methods) and superior representation quality, achieving state-of-the-art performance in various downstream tasks.</p>
+</details>
+
+</div> 
+
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+                <div class="icon arrow-left"></div>
+                <div class="post-link">
+                    <a href="/latest/">Prev</a>
+                </div>
+            
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/2025-09-05/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="post-comment">
+
+     
+
+     
+    
+    
+
+</div>
+     
+  
+</article>
+        </div>
+      </div>
+      
+      <div class="footer">
+    <div class="flex-container">
+        <div class="footer-text">
+            
+            
+            
+                Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & <a target="_blank" rel="noopener" href="https://github.com/zoeingwingkei/frame/">Frame</a>
+                
+        </div>
+    </div>
+</div>
+
+    </div>
+
+  </body>
+</html>
