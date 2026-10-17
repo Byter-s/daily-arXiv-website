@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="Byter">
+
+
+
+
+
+
+
+<title>2025-08-06 | Daily arXiv</title>
+
+
+
+    <link rel="icon" href="/icon.png">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+</style>
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/css/style.css">
+    
+
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/js/frame.js"></script>
+    
+
+
+
+
+
+
+<script src='https://unpkg.com/valine@1.4.16/dist/Valine.min.js'></script>
+
+
+
+  <meta name="generator" content="Hexo 7.3.0"></head>
+  <body>
+    <div class="mask-border">
+    </div>
+
+    <div class="wrapper">
+
+      <div class="header">
+  <div class="flex-container">
+    <div class="header-inner">
+      <div class="site-brand-container">
+        <a href="/">
+          
+            Daily arXiv.
+          
+        </a>
+      </div>
+      <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
+        Menu
+      </div>
+      <nav class="site-nav">
+        <ul class="menu-list">
+          
+            
+              <li class="menu-item">
+                <a href="/">Home</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/archives/">Archive</a>
+              </li> 
+                   
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main">
+        <div class="flex-container">
+          <article id="post">
+
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
+            
+        </div>
+        <div class="post-title">
+            
+            
+                2025-08-06
+            
+            
+        </div>
+        <span class="post-date">
+            Aug 6, 2025
+        </span>
+    </div>
+    <div class="post-img">
+        
+            <div class="h-line-primary"></div>
+              
+    </div>
+</div>
+    <div class="post-content">
+    <div id=toc></div>
+
+<h1 id="Table-of-Contents"><a href="#Table-of-Contents" class="headerlink" title="Table of Contents"></a>Table of Contents</h1><ul>
+<li><a href="#cs.CV">cs.CV</a> [Total: 15]</li>
+<li><a href="#cs.CL">cs.CL</a> [Total: 13]</li>
+<li><a href="#eess.IV">eess.IV</a> [Total: 2]</li>
+</ul>
+<div id='cs.CV'></div>
+
+<h1 id="cs-CV-Back"><a href="#cs-CV-Back" class="headerlink" title="cs.CV [Back]"></a>cs.CV <a href="#toc">[Back]</a></h1><h3 id="1-Benefits-of-Feature-Extraction-and-Temporal-Sequence-Analysis-for-Video-Frame-Prediction-An-Evaluation-of-Hybrid-Deep-Learning-Models-cs-CV-cs-AIPDF"><a href="#1-Benefits-of-Feature-Extraction-and-Temporal-Sequence-Analysis-for-Video-Frame-Prediction-An-Evaluation-of-Hybrid-Deep-Learning-Models-cs-CV-cs-AIPDF" class="headerlink" title="[1] Benefits of Feature Extraction and Temporal Sequence Analysis for Video Frame Prediction: An Evaluation of Hybrid Deep Learning Models cs.CV | cs.AIPDF"></a>[1] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.00898">Benefits of Feature Extraction and Temporal Sequence Analysis for Video Frame Prediction: An Evaluation of Hybrid Deep Learning Models</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV | cs.AI</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.00898" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Jose M. Sánchez Velázquez, Mingbo Cai, Andrew Coney, Álvaro J. García- Tejedor, Alberto Nogales</span></p>
+<p><strong>TL;DR:</strong> 该论文评估了结合自编码器特征提取能力与RNNs、3D CNNs等时序建模的混合深度学习模型，用于视频帧预测。实验表明，3D CNNs和ConvLSTMs的混合模型效果最佳，SSIM指标从0.69提升至0.82。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 视频帧预测在天气预测或自动驾驶等领域有重要应用，但现有模型仍有改进空间，需结合特征提取和时序建模以提升性能。</p>
+<p><strong>Result:</strong> 实验结果表明，3D CNNs和ConvLSTMs的混合模型表现最佳，SSIM指标从0.69提升至0.82，且灰度真实数据最容易预测。</p>
+<p><strong>Insight:</strong> 结合特征提取与时序建模的混合模型能显著提升视频帧预测性能，且3D CNNs和ConvLSTMs在处理时空数据时更具优势。</p>
+<p><strong>Abstract:</strong> In recent years, advances in Artificial Intelligence have significantly impacted computer science, particularly in the field of computer vision, enabling solutions to complex problems such as video frame prediction. Video frame prediction has critical applications in weather forecasting or autonomous systems and can provide technical improvements, such as video compression and streaming. Among Artificial Intelligence methods, Deep Learning has emerged as highly effective for solving vision-related tasks, although current frame prediction models still have room for enhancement. This paper evaluates several hybrid deep learning approaches that combine the feature extraction capabilities of autoencoders with temporal sequence modelling using Recurrent Neural Networks (RNNs), 3D Convolutional Neural Networks (3D CNNs), and related architectures. The proposed solutions were rigorously evaluated on three datasets that differ in terms of synthetic versus real-world scenarios and grayscale versus color imagery. Results demonstrate that the approaches perform well, with SSIM metrics increasing from 0.69 to 0.82, indicating that hybrid models utilizing 3DCNNs and ConvLSTMs are the most effective, and greyscale videos with real data are the easiest to predict.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="2-TESPEC-Temporally-Enhanced-Self-Supervised-Pretraining-for-Event-Cameras-cs-CV-cs-LGPDF"><a href="#2-TESPEC-Temporally-Enhanced-Self-Supervised-Pretraining-for-Event-Cameras-cs-CV-cs-LGPDF" class="headerlink" title="[2] TESPEC: Temporally-Enhanced Self-Supervised Pretraining for Event Cameras cs.CV | cs.LGPDF"></a>[2] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.00913">TESPEC: Temporally-Enhanced Self-Supervised Pretraining for Event Cameras</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV | cs.LG</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.00913" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Mohammad Mohammadi, Ziyi Wu, Igor Gilitschenski</span></p>
+<p><strong>TL;DR:</strong> TESPEC提出了一种新的自监督预训练框架，专为事件相机设计，通过利用长事件序列学习时空信息，显著提升了循环模型在多个下游任务中的性能。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 现有的事件相机自监督学习方法主要模仿RGB图像方法，忽视了事件的长期时序信息，导致循环模型表现不如前馈模型。</p>
+<p><strong>Result:</strong> 在目标检测、语义分割和单目深度估计等下游任务中取得了最先进的结果。</p>
+<p><strong>Insight:</strong> 通过引入长期时序信息预训练，循环模型的表现得以显著提升，表明时序信息对事件相机任务至关重要。</p>
+<p><strong>Abstract:</strong> Long-term temporal information is crucial for event-based perception tasks, as raw events only encode pixel brightness changes. Recent works show that when trained from scratch, recurrent models achieve better results than feedforward models in these tasks. However, when leveraging self-supervised pre-trained weights, feedforward models can outperform their recurrent counterparts. Current self-supervised learning (SSL) methods for event-based pre-training largely mimic RGB image-based approaches. They pre-train feedforward models on raw events within a short time interval, ignoring the temporal information of events. In this work, we introduce TESPEC, a self-supervised pre-training framework tailored for learning spatio-temporal information. TESPEC is well-suited for recurrent models, as it is the first framework to leverage long event sequences during pre-training. TESPEC employs the masked image modeling paradigm with a new reconstruction target. We design a novel method to accumulate events into pseudo grayscale videos containing high-level semantic information about the underlying scene, which is robust to sensor noise and reduces motion blur. Reconstructing this target thus requires the model to reason about long-term history of events. Extensive experiments demonstrate our state-of-the-art results in downstream tasks, including object detection, semantic segmentation, and monocular depth estimation. Project webpage: <a target="_blank" rel="noopener" href="https://mhdmohammadi.github.io/TESPEC_webpage">https://mhdmohammadi.github.io/TESPEC_webpage</a>.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="3-Latent-Diffusion-Based-Face-Enhancement-under-Degraded-Conditions-for-Forensic-Face-Recognition-cs-CVPDF"><a href="#3-Latent-Diffusion-Based-Face-Enhancement-under-Degraded-Conditions-for-Forensic-Face-Recognition-cs-CVPDF" class="headerlink" title="[3] Latent Diffusion Based Face Enhancement under Degraded Conditions for Forensic Face Recognition cs.CVPDF"></a>[3] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.00941">Latent Diffusion Based Face Enhancement under Degraded Conditions for Forensic Face Recognition</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.00941" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Hassan Ugail, Hamad Mansour Alawar, AbdulNasser Abbas Zehi, Ahmed Mohammad Alkendi, Ismail Lujain Jaleel</span></p>
+<p><strong>TL;DR:</strong> 该论文探讨了基于隐式扩散的人脸增强技术在法医人脸识别中的效果，针对低质量图像进行增强后显著提升了识别准确率。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 法医场景中的人脸图像常因质量低下导致识别性能严重下降，亟需有效的增强技术改善这一现状。</p>
+<p><strong>Result:</strong> 实验结果显示了显著的性能提升，所有退化类型下的识别准确率均有显著改善。</p>
+<p><strong>Insight:</strong> 复杂的扩散增强技术在法医人脸识别中具有实际应用潜力，能够有效应对多种图像退化问题。</p>
+<p><strong>Abstract:</strong> Face recognition systems experience severe performance degradation when processing low-quality forensic evidence imagery. This paper presents an evaluation of latent diffusion-based enhancement for improving face recognition under forensically relevant degradations. Using a dataset of 3,000 individuals from LFW with 24,000 recognition attempts, we implement the Flux.1 Kontext Dev pipeline with Facezoom LoRA adaptation to test against seven degradation categories, including compression artefacts, blur effects, and noise contamination. Our approach demonstrates substantial improvements, increasing overall recognition accuracy from 29.1% to 84.5% (55.4 percentage point improvement, 95% CI: [54.1, 56.7]). Statistical analysis reveals significant performance gains across all degradation types, with effect sizes exceeding conventional thresholds for practical significance. These findings establish the potential of sophisticated diffusion based enhancement in forensic face recognition applications.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="4-Optimizing-Vision-Language-Consistency-via-Cross-Layer-Regional-Attention-Alignment-cs-CVPDF"><a href="#4-Optimizing-Vision-Language-Consistency-via-Cross-Layer-Regional-Attention-Alignment-cs-CVPDF" class="headerlink" title="[4] Optimizing Vision-Language Consistency via Cross-Layer Regional Attention Alignment cs.CVPDF"></a>[4] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.00945">Optimizing Vision-Language Consistency via Cross-Layer Regional Attention Alignment</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.00945" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Yifan Wang, Hongfeng Ai, Quangao Liu, Maowei Jiang, Ruiyuan Kang</span></p>
+<p><strong>TL;DR:</strong> 本文提出了一种名为CCRA的新方法，通过跨层区域注意力对齐优化视觉语言模型的性能，提出LPWCA和PAI机制，显著提升了模型在多个基准测试上的表现。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 视觉语言模型在跨模态嵌入学习中存在注意力机制不协调的问题，导致注意力不匹配和性能不佳。</p>
+<p><strong>Result:</strong> 在十个基准测试中，CCRA增强的LLaVA-v1.5-7B模型表现最优，仅增加3.55M参数，同时提供了更强的可解释性。</p>
+<p><strong>Insight:</strong> 渐进式注意力集成和跨层对齐机制可显著提升视觉语言模型的一致性和性能。</p>
+<p><strong>Abstract:</strong> Vision Language Models (VLMs) face challenges in effectively coordinating diverse attention mechanisms for cross-modal embedding learning, leading to mismatched attention and suboptimal performance. We propose Consistent Cross-layer Regional Alignment (CCRA), which introduces Layer-Patch-wise Cross Attention (LPWCA) to capture fine-grained regional-semantic correlations by jointly weighting patch and layer-wise embedding, and Progressive Attention Integration (PAI) that systematically coordinates LPWCA, layer-wise, and patch-wise attention mechanisms in sequence. This progressive design ensures consistency from semantic to regional levels while preventing attention drift and maximizing individual attention benefits. Experimental results on ten diverse vision-language benchmarks demonstrate that our CCRA-enhanced LLaVA-v1.5-7B model achieves state-of-the-art performance, outperforming all baseline methods with only 3.55M additional parameters, while providing enhanced interpretability through more regionally focused and semantically aligned attention patterns.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="5-ThermoCycleNet-Stereo-based-Thermogram-Labeling-for-Model-Transition-to-Cycling-cs-CV-cs-AI-cs-LGPDF"><a href="#5-ThermoCycleNet-Stereo-based-Thermogram-Labeling-for-Model-Transition-to-Cycling-cs-CV-cs-AI-cs-LGPDF" class="headerlink" title="[5] ThermoCycleNet: Stereo-based Thermogram Labeling for Model Transition to Cycling cs.CV | cs.AI | cs.LGPDF"></a>[5] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.00974">ThermoCycleNet: Stereo-based Thermogram Labeling for Model Transition to Cycling</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV | cs.AI | cs.LG</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.00974" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Daniel Andrés López, Vincent Weber, Severin Zentgraf, Barlo Hillen, Perikles Simon</span></p>
+<p><strong>TL;DR:</strong> ThermoCycleNet将立体和多模态标注方法从跑步机跑步转移到自行车骑行，通过结合自动标注和少量手动标注数据，加速深度学习模型在新场景（如跑步到骑行）中的适应。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 红外热成像在运动医学中具有潜力，但现有标注方法在不同运动场景（如跑步与骑行）中的适应性不足。</p>
+<p><strong>Result:</strong> 实验表明，结合少量手动标注数据能显著提升模型性能，并加速模型从跑步到骑行场景的迁移。</p>
+<p><strong>Insight:</strong> 自动标注与少量手动标注的结合是适应新场景的高效策略，尤其是在数据标注成本较高的领域。</p>
+<p><strong>Abstract:</strong> Infrared thermography is emerging as a powerful tool in sports medicine, allowing assessment of thermal radiation during exercise and analysis of anatomical regions of interest, such as the well-exposed calves. Building on our previous advanced automatic annotation method, we aimed to transfer the stereo- and multimodal-based labeling approach from treadmill running to ergometer cycling. Therefore, the training of the semantic segmentation network with automatic labels and fine-tuning on high-quality manually annotated images has been examined and compared in different data set combinations. The results indicate that fine-tuning with a small fraction of manual data is sufficient to improve the overall performance of the deep neural network. Finally, combining automatically generated labels with small manually annotated data sets accelerates the adaptation of deep neural networks to new use cases, such as the transition from treadmill to bicycle.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="6-ROVI-A-VLM-LLM-Re-Captioned-Dataset-for-Open-Vocabulary-Instance-Grounded-Text-to-Image-Generation-cs-CVPDF"><a href="#6-ROVI-A-VLM-LLM-Re-Captioned-Dataset-for-Open-Vocabulary-Instance-Grounded-Text-to-Image-Generation-cs-CVPDF" class="headerlink" title="[6] ROVI: A VLM-LLM Re-Captioned Dataset for Open-Vocabulary Instance-Grounded Text-to-Image Generation cs.CVPDF"></a>[6] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01008">ROVI: A VLM-LLM Re-Captioned Dataset for Open-Vocabulary Instance-Grounded Text-to-Image Generation</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01008" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Cihang Peng, Qiming Hou, Zhong Ren, Kun Zhou</span></p>
+<p><strong>TL;DR:</strong> 论文提出了ROVI数据集，通过VLM和LLM的联合标注策略生成高质量实例标注的文本到图像数据集，显著提升开放词汇检测器的性能。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 现有数据集在图像质量和类别多样性上存在不足，尤其是在开放词汇检测任务中。作者希望通过结合VLM和LLM的能力，生成更全面的标注信息。</p>
+<p><strong>Result:</strong> ROVI数据集在图像质量和类别数量上显著优于现有数据集。基于ROVI训练的GLIGEN模型在实例定位、提示保真度和美学质量上表现优异。</p>
+<p><strong>Insight:</strong> 结合VLM和LLM的标注策略可以有效提升开放词汇检测任务的性能，同时生成的全局提示信息有助于捕获人类容易忽略的视觉细节。</p>
+<p><strong>Abstract:</strong> We present ROVI, a high-quality synthetic dataset for instance-grounded text-to-image generation, created by labeling 1M curated web images. Our key innovation is a strategy called re-captioning, focusing on the pre-detection stage, where a VLM (Vision-Language Model) generates comprehensive visual descriptions that are then processed by an LLM (Large Language Model) to extract a flat list of potential categories for OVDs (Open-Vocabulary Detectors) to detect. This approach yields a global prompt inherently linked to instance annotations while capturing secondary visual elements humans typically overlook. Evaluations show that ROVI exceeds existing detection datasets in image quality and resolution while containing two orders of magnitude more categories with an open-vocabulary nature. For demonstrative purposes, a text-to-image model GLIGEN trained on ROVI significantly outperforms state-of-the-art alternatives in instance grounding accuracy, prompt fidelity, and aesthetic quality. Our dataset and reproducible pipeline are available at <a target="_blank" rel="noopener" href="https://github.com/CihangPeng/ROVI">https://github.com/CihangPeng/ROVI</a>.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="7-Structured-Spectral-Graph-Learning-for-Anomaly-Classification-in-3D-Chest-CT-Scans-cs-CV-cs-LGPDF"><a href="#7-Structured-Spectral-Graph-Learning-for-Anomaly-Classification-in-3D-Chest-CT-Scans-cs-CV-cs-LGPDF" class="headerlink" title="[7] Structured Spectral Graph Learning for Anomaly Classification in 3D Chest CT Scans cs.CV | cs.LGPDF"></a>[7] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01045">Structured Spectral Graph Learning for Anomaly Classification in 3D Chest CT Scans</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV | cs.LG</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01045" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Theo Di Piazza, Carole Lazarus, Olivier Nempont, Loic Boussel</span></p>
+<p><strong>TL;DR:</strong> 该论文提出了一种基于图谱的方法，将3D CT扫描建模为结构化图，通过谱域卷积增强多标签异常分类性能，解决了传统3D卷积网络和Vision Transformers的局限性。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 随着CT扫描检查的增加，需要自动化方法辅助放射科医生管理繁重的工作量。现有的3D卷积网络和Vision Transformers在处理3D CT扫描的多标签分类任务时，存在长距离依赖建模能力不足或计算成本高的问题。</p>
+<p><strong>Result:</strong> 提出的方法在性能上具有竞争力，且在跨数据集泛化和对z轴平移的鲁棒性方面表现出色。消融实验验证了各组件的贡献。</p>
+<p><strong>Insight:</strong> 谱域图学习方法为3D CT扫描的多标签分类提供了一种新的解决方案，避免了传统方法的计算复杂性和预训练需求，同时在性能上实现竞争力。</p>
+<p><strong>Abstract:</strong> With the increasing number of CT scan examinations, there is a need for automated methods such as organ segmentation, anomaly detection and report generation to assist radiologists in managing their increasing workload. Multi-label classification of 3D CT scans remains a critical yet challenging task due to the complex spatial relationships within volumetric data and the variety of observed anomalies. Existing approaches based on 3D convolutional networks have limited abilities to model long-range dependencies while Vision Transformers suffer from high computational costs and often require extensive pre-training on large-scale datasets from the same domain to achieve competitive performance. In this work, we propose an alternative by introducing a new graph-based approach that models CT scans as structured graphs, leveraging axial slice triplets nodes processed through spectral domain convolution to enhance multi-label anomaly classification performance. Our method exhibits strong cross-dataset generalization, and competitive performance while achieving robustness to z-axis translation. An ablation study evaluates the contribution of each proposed component.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="8-Evading-Data-Provenance-in-Deep-Neural-Networks-cs-CV-cs-CRPDF"><a href="#8-Evading-Data-Provenance-in-Deep-Neural-Networks-cs-CV-cs-CRPDF" class="headerlink" title="[8] Evading Data Provenance in Deep Neural Networks cs.CV | cs.CRPDF"></a>[8] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01074">Evading Data Provenance in Deep Neural Networks</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV | cs.CR</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01074" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Hongyu Zhu, Sichu Liang, Wenwen Wang, Zhuomeng Zhang, Fangqi Li</span></p>
+<p><strong>TL;DR:</strong> 本文提出了一个统一的规避框架，通过教师模型从版权数据集中学习，并利用OOD数据集作为中介，将任务相关但无关标识的领域知识转移给学生模型，有效规避了11种DOV方法的检测，同时保持了模型的泛化能力。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 现代深度模型严重依赖大规模数据集，但许多数据集涉及隐私或版权问题。数据集所有权验证（DOV）被提出以保护版权，但其安全性被高估，因为现有研究依赖于过于简化的攻击评估。</p>
+<p><strong>Result:</strong> 实验表明，该方法在多种数据集上能完全消除版权标识，且泛化和规避效果显著优于现有攻击方法，计算开销适中。</p>
+<p><strong>Insight:</strong> DOV方法的安全性被高估，未来需进一步改进以增强实用性。知识转移和OOD数据集的合理利用是关键。</p>
+<p><strong>Abstract:</strong> Modern over-parameterized deep models are highly data-dependent, with large scale general-purpose and domain-specific datasets serving as the bedrock for rapid advancements. However, many datasets are proprietary or contain sensitive information, making unrestricted model training problematic. In the open world where data thefts cannot be fully prevented, Dataset Ownership Verification (DOV) has emerged as a promising method to protect copyright by detecting unauthorized model training and tracing illicit activities. Due to its diversity and superior stealth, evading DOV is considered extremely challenging. However, this paper identifies that previous studies have relied on oversimplistic evasion attacks for evaluation, leading to a false sense of security. We introduce a unified evasion framework, in which a teacher model first learns from the copyright dataset and then transfers task-relevant yet identifier-independent domain knowledge to a surrogate student using an out-of-distribution (OOD) dataset as the intermediary. Leveraging Vision-Language Models and Large Language Models, we curate the most informative and reliable subsets from the OOD gallery set as the final transfer set, and propose selectively transferring task-oriented knowledge to achieve a better trade-off between generalization and evasion effectiveness. Experiments across diverse datasets covering eleven DOV methods demonstrate our approach simultaneously eliminates all copyright identifiers and significantly outperforms nine state-of-the-art evasion attacks in both generalization and effectiveness, with moderate computational overhead. As a proof of concept, we reveal key vulnerabilities in current DOV methods, highlighting the need for long-term development to enhance practicality.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="9-DreamSat-2-0-Towards-a-General-Single-View-Asteroid-3D-Reconstruction-cs-CV-cs-LGPDF"><a href="#9-DreamSat-2-0-Towards-a-General-Single-View-Asteroid-3D-Reconstruction-cs-CV-cs-LGPDF" class="headerlink" title="[9] DreamSat-2.0: Towards a General Single-View Asteroid 3D Reconstruction cs.CV | cs.LGPDF"></a>[9] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01079">DreamSat-2.0: Towards a General Single-View Asteroid 3D Reconstruction</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV | cs.LG</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01079" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Santiago Diaz, Xinghui Hu, Josiane Uwumukiza, Giovanni Lavezzi, Victor Rodriguez-Fernandez</span></p>
+<p><strong>TL;DR:</strong> 本文介绍了DreamSat-2.0，一个评估三种先进3D重建模型的流程，用于航天器和小行星数据的单视图3D重建。模型性能显示其领域依赖性，并在新基准测试中取得了显著进步。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 通过提升小行星探索和自主航天器导航的能力，需要一个通用的单视图3D重建方法。</p>
+<p><strong>Result:</strong> 模型在复杂航天器上表现更好的图像质量，而在简单形状的小行星上表现更优的几何重建精度，Hunyuan-3D在多个任务中表现最佳。</p>
+<p><strong>Insight:</strong> 模型性能的领域依赖性表明，未来的3D重建技术需要针对特定应用场景进行优化。</p>
+<p><strong>Abstract:</strong> To enhance asteroid exploration and autonomous spacecraft navigation, we introduce DreamSat-2.0, a pipeline that benchmarks three state-of-the-art 3D reconstruction models-Hunyuan-3D, Trellis-3D, and Ouroboros-3D-on custom spacecraft and asteroid datasets. Our systematic analysis, using 2D perceptual (image quality) and 3D geometric (shape accuracy) metrics, reveals that model performance is domain-dependent. While models produce higher-quality images of complex spacecraft, they achieve better geometric reconstructions for the simpler forms of asteroids. New benchmarks are established, with Hunyuan-3D achieving top perceptual scores on spacecraft but its best geometric accuracy on asteroids, marking a significant advance over our prior work.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="10-COSTARR-Consolidated-Open-Set-Technique-with-Attenuation-for-Robust-Recognition-cs-CVPDF"><a href="#10-COSTARR-Consolidated-Open-Set-Technique-with-Attenuation-for-Robust-Recognition-cs-CVPDF" class="headerlink" title="[10] COSTARR: Consolidated Open Set Technique with Attenuation for Robust Recognition cs.CVPDF"></a>[10] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01087">COSTARR: Consolidated Open Set Technique with Attenuation for Robust Recognition</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01087" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Ryan Rabinowitz, Steve Cruz, Walter Scheirer, Terrance E. Boult</span></p>
+<p><strong>TL;DR:</strong> COSTARR引入了一种新颖的衰减假设，提出通过训练中学习的小权重来衰减特征，以改进开放集识别（OSR）。该方法结合熟悉特征和陌生特征的缺乏，通过概率解释COSTARR得分，并在多种架构上验证其优越性。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 开放集识别中的主要挑战之一是处理未知类别的样本。传统方法依赖熟悉特征假说，而本文提出衰减假说，利用训练中学习的小权重来衰减特征，从而提升识别性能。</p>
+<p><strong>Result:</strong> 实验表明，COSTARR在ImageNet2012-1K等已知数据集与NINCO、iNaturalist等未知数据集上表现优异，显著超越现有SOTA方法。</p>
+<p><strong>Insight:</strong> 衰减特征在开放集识别中被忽视，但其在区分已知和未知类别中具有重要作用。结合衰减假说能显著提升OSR性能，且方法具有跨架构通用性。</p>
+<p><strong>Abstract:</strong> Handling novelty remains a key challenge in visual recognition systems. Existing open-set recognition (OSR) methods rely on the familiarity hypothesis, detecting novelty by the absence of familiar features. We propose a novel attenuation hypothesis: small weights learned during training attenuate features and serve a dual role-differentiating known classes while discarding information useful for distinguishing known from unknown classes. To leverage this overlooked information, we present COSTARR, a novel approach that combines both the requirement of familiar features and the lack of unfamiliar ones. We provide a probabilistic interpretation of the COSTARR score, linking it to the likelihood of correct classification and belonging in a known class. To determine the individual contributions of the pre- and post-attenuated features to COSTARR’s performance, we conduct ablation studies that show both pre-attenuated deep features and the underutilized post-attenuated Hadamard product features are essential for improving OSR. Also, we evaluate COSTARR in a large-scale setting using ImageNet2012-1K as known data and NINCO, iNaturalist, OpenImage-O, and other datasets as unknowns, across multiple modern pre-trained architectures (ViTs, ConvNeXts, and ResNet). The experiments demonstrate that COSTARR generalizes effectively across various architectures and significantly outperforms prior state-of-the-art methods by incorporating previously discarded attenuation information, advancing open-set recognition capabilities.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="11-AURA-A-Hybrid-Spatiotemporal-Chromatic-Framework-for-Robust-Real-Time-Detection-of-Industrial-Smoke-Emissions-cs-CVPDF"><a href="#11-AURA-A-Hybrid-Spatiotemporal-Chromatic-Framework-for-Robust-Real-Time-Detection-of-Industrial-Smoke-Emissions-cs-CVPDF" class="headerlink" title="[11] AURA: A Hybrid Spatiotemporal-Chromatic Framework for Robust, Real-Time Detection of Industrial Smoke Emissions cs.CVPDF"></a>[11] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01095">AURA: A Hybrid Spatiotemporal-Chromatic Framework for Robust, Real-Time Detection of Industrial Smoke Emissions</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01095" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Mikhail Bychkov, Matey Yordanov, Andrei Kuchma</span></p>
+<p><strong>TL;DR:</strong> 论文提出了一种名为AURA的混合时空-色彩框架，用于实时、鲁棒地检测和分类工业烟雾排放，解决现有系统在区分烟雾类型和应对环境变化方面的局限性。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 当前工业烟雾监测系统在特定性和环境适应性方面存在不足，AURA框架旨在通过结合时空动态模式和色彩特征提升检测精度。</p>
+<p><strong>Result:</strong> AURA框架实现了高精度的烟雾检测，并在减少误报和应对环境变化方面表现出色。</p>
+<p><strong>Insight:</strong> 结合时空和色彩特征能够有效提升复杂环境中工业烟雾的检测和分类性能。</p>
+<p><strong>Abstract:</strong> This paper introduces AURA, a novel hybrid spatiotemporal-chromatic framework designed for robust, real-time detection and classification of industrial smoke emissions. The framework addresses critical limitations of current monitoring systems, which often lack the specificity to distinguish smoke types and struggle with environmental variability. AURA leverages both the dynamic movement patterns and the distinct color characteristics of industrial smoke to provide enhanced accuracy and reduced false positives. This framework aims to significantly improve environmental compliance, operational safety, and public health outcomes by enabling precise, automated monitoring of industrial emissions.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="12-MASIV-Toward-Material-Agnostic-System-Identification-from-Videos-cs-CVPDF"><a href="#12-MASIV-Toward-Material-Agnostic-System-Identification-from-Videos-cs-CVPDF" class="headerlink" title="[12] MASIV: Toward Material-Agnostic System Identification from Videos cs.CVPDF"></a>[12] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01112">MASIV: Toward Material-Agnostic System Identification from Videos</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01112" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Yizhou Zhao, Haoyu Chen, Chunjiang Liu, Zhenyang Li, Charles Herrmann</span></p>
+<p><strong>TL;DR:</strong> MASIV是一种基于视觉的材料无关系统识别框架，通过可学习的神经本构模型推断物体动态，解决了现有方法依赖预定义材料先验的局限性。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 现有方法依赖预定义的材料先验，无法处理未知材料，限制了系统识别的通用性。</p>
+<p><strong>Result:</strong> 实验表明，MASIV在几何精度、渲染质量和泛化能力上达到SOTA性能。</p>
+<p><strong>Insight:</strong> 通过神经本构模型和学习密集运动约束，可以更灵活地处理未知材料的系统识别问题。</p>
+<p><strong>Abstract:</strong> System identification from videos aims to recover object geometry and governing physical laws. Existing methods integrate differentiable rendering with simulation but rely on predefined material priors, limiting their ability to handle unknown ones. We introduce MASIV, the first vision-based framework for material-agnostic system identification. Unlike existing approaches that depend on hand-crafted constitutive laws, MASIV employs learnable neural constitutive models, inferring object dynamics without assuming a scene-specific material prior. However, the absence of full particle state information imposes unique challenges, leading to unstable optimization and physically implausible behaviors. To address this, we introduce dense geometric guidance by reconstructing continuum particle trajectories, providing temporally rich motion constraints beyond sparse visual cues. Comprehensive experiments show that MASIV achieves state-of-the-art performance in geometric accuracy, rendering quality, and generalization ability.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="13-The-Promise-of-RL-for-Autoregressive-Image-Editing-cs-CV-cs-LGPDF"><a href="#13-The-Promise-of-RL-for-Autoregressive-Image-Editing-cs-CV-cs-LGPDF" class="headerlink" title="[13] The Promise of RL for Autoregressive Image Editing cs.CV | cs.LGPDF"></a>[13] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01119">The Promise of RL for Autoregressive Image Editing</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV | cs.LG</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01119" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Saba Ahmadi, Rabiul Awal, Ankur Sikarwar, Amirhossein Kazemnejad, Ge Ya Luo</span></p>
+<p><strong>TL;DR:</strong> 本文探讨了三种提升图像编辑任务性能的策略，并提出了基于强化学习的自回归模型EARL，在多模态任务中表现优异。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 目标是提升图像编辑任务的性能，尤其是在自回归多模态框架下，结合多种策略优化模型表现。</p>
+<p><strong>Result:</strong> EARL模型在多样化编辑任务中表现优异，优于基线方法。</p>
+<p><strong>Insight:</strong> 强化学习结合多模态LLM验证器是提升自回归图像编辑性能的有效策略。</p>
+<p><strong>Abstract:</strong> We explore three strategies to enhance performance on a wide range of image editing tasks: supervised fine-tuning (SFT), reinforcement learning (RL), and Chain-of-Thought (CoT) reasoning. In order to study all these components in one consistent framework, we adopt an autoregressive multimodal model that processes textual and visual tokens in a unified manner. We find RL combined with a large multi-modal LLM verifier to be the most effective of these strategies. As a result, we release EARL: Editing with Autoregression and RL, a strong RL-based image editing model that performs competitively on a diverse range of edits compared to strong baselines, despite using much less training data. Thus, EARL pushes the frontier of autoregressive multimodal models on image editing. We release our code, training data, and trained models at <a target="_blank" rel="noopener" href="https://github.com/mair-lab/EARL">https://github.com/mair-lab/EARL</a>.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="14-UniEgoMotion-A-Unified-Model-for-Egocentric-Motion-Reconstruction-Forecasting-and-Generation-cs-CVPDF"><a href="#14-UniEgoMotion-A-Unified-Model-for-Egocentric-Motion-Reconstruction-Forecasting-and-Generation-cs-CVPDF" class="headerlink" title="[14] UniEgoMotion: A Unified Model for Egocentric Motion Reconstruction, Forecasting, and Generation cs.CVPDF"></a>[14] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01126">UniEgoMotion: A Unified Model for Egocentric Motion Reconstruction, Forecasting, and Generation</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01126" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Chaitanya Patel, Hiroki Nakamura, Yuta Kyuragi, Kazuki Kozuka, Juan Carlos Niebles</span></p>
+<p><strong>TL;DR:</strong> 本文提出了一种新型的统一模型UniEgoMotion，用于从第一人称视角进行运动重建、预测和生成，填补了现有方法在真实场景中的局限性。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 在增强现实（AR）、虚拟现实（VR）、人机交互和辅助技术中，从第一人称视角准确预测和模拟运动至关重要。然而，现有方法主要关注第三人称运动生成，无法有效应对第一人称场景中的动态相机、遮挡和有限视野问题。</p>
+<p><strong>Result:</strong> 实验表明，UniEgoMotion在运动重建任务中达到最新水平，并首次实现了从单一张第一人称图像生成运动。</p>
+<p><strong>Insight:</strong> 第一人称运动生成的关键在于有效利用场景语义信息，而统一的框架可以同时支持多种任务（重建、预测和生成）。</p>
+<p><strong>Abstract:</strong> Egocentric human motion generation and forecasting with scene-context is crucial for enhancing AR&#x2F;VR experiences, improving human-robot interaction, advancing assistive technologies, and enabling adaptive healthcare solutions by accurately predicting and simulating movement from a first-person perspective. However, existing methods primarily focus on third-person motion synthesis with structured 3D scene contexts, limiting their effectiveness in real-world egocentric settings where limited field of view, frequent occlusions, and dynamic cameras hinder scene perception. To bridge this gap, we introduce Egocentric Motion Generation and Egocentric Motion Forecasting, two novel tasks that utilize first-person images for scene-aware motion synthesis without relying on explicit 3D scene. We propose UniEgoMotion, a unified conditional motion diffusion model with a novel head-centric motion representation tailored for egocentric devices. UniEgoMotion’s simple yet effective design supports egocentric motion reconstruction, forecasting, and generation from first-person visual inputs in a unified framework. Unlike previous works that overlook scene semantics, our model effectively extracts image-based scene context to infer plausible 3D motion. To facilitate training, we introduce EE4D-Motion, a large-scale dataset derived from EgoExo4D, augmented with pseudo-ground-truth 3D motion annotations. UniEgoMotion achieves state-of-the-art performance in egocentric motion reconstruction and is the first to generate motion from a single egocentric image. Extensive evaluations demonstrate the effectiveness of our unified framework, setting a new benchmark for egocentric motion modeling and unlocking new possibilities for egocentric applications.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="15-Semi-Supervised-Anomaly-Detection-in-Brain-MRI-Using-a-Domain-Agnostic-Deep-Reinforcement-Learning-Approach-cs-CVPDF"><a href="#15-Semi-Supervised-Anomaly-Detection-in-Brain-MRI-Using-a-Domain-Agnostic-Deep-Reinforcement-Learning-Approach-cs-CVPDF" class="headerlink" title="[15] Semi-Supervised Anomaly Detection in Brain MRI Using a Domain-Agnostic Deep Reinforcement Learning Approach cs.CVPDF"></a>[15] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01137">Semi-Supervised Anomaly Detection in Brain MRI Using a Domain-Agnostic Deep Reinforcement Learning Approach</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01137" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Zeduo Zhang, Yalda Mohsenzadeh</span></p>
+<p><strong>TL;DR:</strong> 该论文提出了一种领域无关的半监督异常检测框架，结合深度强化学习（DRL）处理脑MRI数据的挑战（如大规模数据、过拟合和类别不平衡）。实验在医疗和工业数据集上均取得优异性能。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 脑MRI异常检测面临大规模数据、标签稀缺和类别不平衡等问题，传统方法难以高效解决，需要一种领域无关的解决方案。</p>
+<p><strong>Result:</strong> 在脑MRI数据集上达到88.7%（像素级）和96.7%（图像级）的AUROC，在工业数据集（MVTec AD）上表现同样优秀（AUROC高达99.8%）。</p>
+<p><strong>Insight:</strong> DRL在半监督异常检测中表现优异，能够跨领域迁移，且对异常样本数量的增加具有单调性性能提升，未见额外计算成本。</p>
+<p><strong>Abstract:</strong> To develop a domain-agnostic, semi-supervised anomaly detection framework that integrates deep reinforcement learning (DRL) to address challenges such as large-scale data, overfitting, and class imbalance, focusing on brain MRI volumes. This retrospective study used publicly available brain MRI datasets collected between 2005 and 2021. The IXI dataset provided 581 T1-weighted and 578 T2-weighted MRI volumes (from healthy subjects) for training, while the BraTS 2021 dataset provided 251 volumes for validation and 1000 for testing (unhealthy subjects with Glioblastomas). Preprocessing included normalization, skull-stripping, and co-registering to a uniform voxel size. Experiments were conducted on both T1- and T2-weighted modalities. Additional experiments and ablation analyses were also carried out on the industrial datasets. The proposed method integrates DRL with feature representations to handle label scarcity, large-scale data and overfitting. Statistical analysis was based on several detection and segmentation metrics including AUROC and Dice score. The proposed method achieved an AUROC of 88.7% (pixel-level) and 96.7% (image-level) on brain MRI datasets, outperforming State-of-The-Art (SOTA) methods. On industrial surface datasets, the model also showed competitive performance (AUROC &#x3D; 99.8% pixel-level, 99.3% image-level) on MVTec AD dataset, indicating strong cross-domain generalization. Studies on anomaly sample size showed a monotonic increase in AUROC as more anomalies were seen, without evidence of overfitting or additional computational cost. The domain-agnostic semi-supervised approach using DRL shows significant promise for MRI anomaly detection, achieving strong performance on both medical and industrial datasets. Its robustness, generalizability and efficiency highlight its potential for real-world clinical applications.</p>
+  </div>
+</details>
+
+<hr>
+<div id='cs.CL'></div>
+
+<h1 id="cs-CL-Back"><a href="#cs-CL-Back" class="headerlink" title="cs.CL [Back]"></a>cs.CL <a href="#toc">[Back]</a></h1><h3 id="16-FECT-Factuality-Evaluation-of-Interpretive-AI-Generated-Claims-in-Contact-Center-Conversation-Transcripts-cs-CL-cs-AI-cs-LGPDF"><a href="#16-FECT-Factuality-Evaluation-of-Interpretive-AI-Generated-Claims-in-Contact-Center-Conversation-Transcripts-cs-CL-cs-AI-cs-LGPDF" class="headerlink" title="[16] FECT: Factuality Evaluation of Interpretive AI-Generated Claims in Contact Center Conversation Transcripts cs.CL | cs.AI | cs.LGPDF"></a>[16] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.00889">FECT: Factuality Evaluation of Interpretive AI-Generated Claims in Contact Center Conversation Transcripts</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL | cs.AI | cs.LG</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.00889" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Hagyeong Shin, Binoy Robin Dalal, Iwona Bialynicka-Birula, Navjot Matharu, Ryan Muir</span></p>
+<p><strong>TL;DR:</strong> 论文提出了FECT，用于评估AI生成的客服对话转录摘要的事实性，采用3D范式（分解、解耦、脱离）改进标注和评估，并构建了相关基准数据集。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 大型语言模型（LLM）易产生幻觉，在缺乏真实标签的客服对话分析中，这种问题尤为严重。因此需要一种方法评估AI生成内容的事实性。</p>
+<p><strong>Result:</strong> 提出了一种自动评估AI生成客服对话摘要事实性的新方法，并验证了3D范式的有效性。</p>
+<p><strong>Insight:</strong> 3D范式可帮助减少LLM幻觉问题，尤其是在缺乏明确事实标签的复杂场景（如情感分析）中。</p>
+<p><strong>Abstract:</strong> Large language models (LLMs) are known to hallucinate, producing natural language outputs that are not grounded in the input, reference materials, or real-world knowledge. In enterprise applications where AI features support business decisions, such hallucinations can be particularly detrimental. LLMs that analyze and summarize contact center conversations introduce a unique set of challenges for factuality evaluation, because ground-truth labels often do not exist for analytical interpretations about sentiments captured in the conversation and root causes of the business problems. To remedy this, we first introduce a \textbf{3D} – \textbf{Decompose, Decouple, Detach} – paradigm in the human annotation guideline and the LLM-judges’ prompt to ground the factuality labels in linguistically-informed evaluation criteria. We then introduce \textbf{FECT}, a novel benchmark dataset for \textbf{F}actuality \textbf{E}valuation of Interpretive AI-Generated \textbf{C}laims in Contact Center Conversation \textbf{T}ranscripts, labeled under our 3D paradigm. Lastly, we report our findings from aligning LLM-judges on the 3D paradigm. Overall, our findings contribute a new approach for automatically evaluating the factuality of outputs generated by an AI system for analyzing contact center conversations.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="17-MAO-ARAG-Multi-Agent-Orchestration-for-Adaptive-Retrieval-Augmented-Generation-cs-CL-cs-IRPDF"><a href="#17-MAO-ARAG-Multi-Agent-Orchestration-for-Adaptive-Retrieval-Augmented-Generation-cs-CL-cs-IRPDF" class="headerlink" title="[17] MAO-ARAG: Multi-Agent Orchestration for Adaptive Retrieval-Augmented Generation cs.CL | cs.IRPDF"></a>[17] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01005">MAO-ARAG: Multi-Agent Orchestration for Adaptive Retrieval-Augmented Generation</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL | cs.IR</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01005" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Yiqun Chen, Erhan Zhang, Lingyong Yan, Shuaiqiang Wang, Jizhou Huang</span></p>
+<p><strong>TL;DR:</strong> MAO-ARAG提出了一种多智能体协作的自适应检索增强生成框架，通过动态规划工作流程应对不同复杂度的问题，以平衡性能与成本。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 在QA系统中，固定的RAG流程难以适应不同复杂度的问题，导致性能和成本不平衡。MAO-ARAG旨在通过多智能体动态规划解决这一问题。</p>
+<p><strong>Result:</strong> 实验表明，MAO-ARAG能显著提升回答质量，同时将成本和延迟控制在合理范围内。</p>
+<p><strong>Insight:</strong> 通过多智能体协作和动态规划，可以更高效地适应复杂多变的QA任务，为自适应RAG系统提供了新的思路。</p>
+<p><strong>Abstract:</strong> In question-answering (QA) systems, Retrieval-Augmented Generation (RAG) has become pivotal in enhancing response accuracy and reducing hallucination issues. The architecture of RAG systems varies significantly, encompassing single-round RAG, iterative RAG, and reasoning RAG, each tailored to address different types of queries. Due to the varying complexity of real-world queries, a fixed RAG pipeline often struggles to balance performance and cost efficiency across different queries. To address this challenge, we propose an adaptive RAG framework called MAO-ARAG, which leverages multi-agent orchestration. Our adaptive RAG is conceived as a multi-turn framework. Specifically, we define multiple executor agents, representing typical RAG modules such as query reformulation agents, document selection agent, and generation agents. A planner agent intelligently selects and integrates the appropriate agents from these executors into a suitable workflow tailored for each query, striving for high-quality answers while maintaining reasonable costs. During each turn, the planner agent is trained using reinforcement learning, guided by an outcome-based reward (F1 score) and a cost-based penalty, continuously improving answer quality while keeping costs within a reasonable range. Experiments conducted on multiple QA datasets demonstrate that our approach, which dynamically plans workflows for each query, not only achieves high answer quality but also maintains both cost and latency within acceptable limits.The code of MAO-ARAG is on <a target="_blank" rel="noopener" href="https://github.com/chenyiqun/Agentic-RAG">https://github.com/chenyiqun/Agentic-RAG</a>.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="18-UrBLiMP-A-Benchmark-for-Evaluating-the-Linguistic-Competence-of-Large-Language-Models-in-Urdu-cs-CLPDF"><a href="#18-UrBLiMP-A-Benchmark-for-Evaluating-the-Linguistic-Competence-of-Large-Language-Models-in-Urdu-cs-CLPDF" class="headerlink" title="[18] UrBLiMP: A Benchmark for Evaluating the Linguistic Competence of Large Language Models in Urdu cs.CLPDF"></a>[18] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01006">UrBLiMP: A Benchmark for Evaluating the Linguistic Competence of Large Language Models in Urdu</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01006" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Farah Adeeba, Brian Dillon, Hassan Sajjad, Rajesh Bhatt</span></p>
+<p><strong>TL;DR:</strong> 该论文提出了UrBLiMP基准测试，用于评估大型语言模型（LLMs）在乌尔都语中的语言能力，发现现有模型在低资源语言中的表现存在显著差异。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 由于乌尔都语等低资源语言在LLMs中的训练数据远少于英语等高资源语言，需要一种方法评估模型在乌尔都语中的语言能力。</p>
+<p><strong>Result:</strong> LLaMA-3-70B表现最佳（94.73%），但与Gemma-3-27B-PT等模型差异不显著，模型在不同语法现象上表现差异明显。</p>
+<p><strong>Insight:</strong> 当前多语言LLMs在低资源语言中的细粒度语法知识捕捉能力既有潜力也有局限，需进一步提升。</p>
+<p><strong>Abstract:</strong> Multilingual Large Language Models (LLMs) have shown remarkable performance across various languages; however, they often include significantly less data for low-resource languages such as Urdu compared to high-resource languages like English. To assess the linguistic knowledge of LLMs in Urdu, we present the Urdu Benchmark of Linguistic Minimal Pairs (UrBLiMP) i.e. pairs of minimally different sentences that contrast in grammatical acceptability. UrBLiMP comprises 5,696 minimal pairs targeting ten core syntactic phenomena, carefully curated using the Urdu Treebank and diverse Urdu text corpora. A human evaluation of UrBLiMP annotations yielded a 96.10% inter-annotator agreement, confirming the reliability of the dataset. We evaluate twenty multilingual LLMs on UrBLiMP, revealing significant variation in performance across linguistic phenomena. While LLaMA-3-70B achieves the highest average accuracy (94.73%), its performance is statistically comparable to other top models such as Gemma-3-27B-PT. These findings highlight both the potential and the limitations of current multilingual LLMs in capturing fine-grained syntactic knowledge in low-resource languages.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="19-Cross-Domain-Web-Information-Extraction-at-Pinterest-cs-CL-cs-AI-cs-IRPDF"><a href="#19-Cross-Domain-Web-Information-Extraction-at-Pinterest-cs-CL-cs-AI-cs-IRPDF" class="headerlink" title="[19] Cross-Domain Web Information Extraction at Pinterest cs.CL | cs.AI | cs.IRPDF"></a>[19] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01096">Cross-Domain Web Information Extraction at Pinterest</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL | cs.AI | cs.IR</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01096" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Michael Farag, Patrick Halina, Andrey Zaytsev, Alekhya Munagala, Imtihan Ahmed</span></p>
+<p><strong>TL;DR:</strong> Pinterest提出了一种高效的跨领域网页信息提取系统，通过结合结构、视觉和文本模态的紧凑网页表示，使用XGBoost等简单模型实现了比复杂LLM更高的准确性和成本效益。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 互联网上存在大量非结构化信息，但将其转换为结构化形式具有挑战性。Pinterest需要从电子商务网站中准确提取结构化产品数据，以提升用户体验和内容分发效率。</p>
+<p><strong>Result:</strong> 系统实现了高度可扩展性（每秒处理1000多个URL），同时比最便宜的GPT替代方案成本低1000倍，准确率更高。</p>
+<p><strong>Insight:</strong> 在特定任务中，简单的模型结合多模态特征可能比复杂LLM更高效且经济，尤其是在需要大规模处理的场景中。</p>
+<p><strong>Abstract:</strong> The internet offers a massive repository of unstructured information, but it’s a significant challenge to convert this into a structured format. At Pinterest, the ability to accurately extract structured product data from e-commerce websites is essential to enhance user experiences and improve content distribution. In this paper, we present Pinterest’s system for attribute extraction, which achieves remarkable accuracy and scalability at a manageable cost. Our approach leverages a novel webpage representation that combines structural, visual, and text modalities into a compact form, optimizing it for small model learning. This representation captures each visible HTML node with its text, style and layout information. We show how this allows simple models such as eXtreme Gradient Boosting (XGBoost) to extract attributes more accurately than much more complex Large Language Models (LLMs) such as Generative Pre-trained Transformer (GPT). Our results demonstrate a system that is highly scalable, processing over 1,000 URLs per second, while being 1000 times more cost-effective than the cheapest GPT alternatives.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="20-Asking-the-Right-Questions-Benchmarking-Large-Language-Models-in-the-Development-of-Clinical-Consultation-Templates-cs-CL-cs-AIPDF"><a href="#20-Asking-the-Right-Questions-Benchmarking-Large-Language-Models-in-the-Development-of-Clinical-Consultation-Templates-cs-CL-cs-AIPDF" class="headerlink" title="[20] Asking the Right Questions: Benchmarking Large Language Models in the Development of Clinical Consultation Templates cs.CL | cs.AIPDF"></a>[20] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01159">Asking the Right Questions: Benchmarking Large Language Models in the Development of Clinical Consultation Templates</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL | cs.AI</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01159" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Liam G. McCoy, Fateme Nateghi Haredasht, Kanav Chopra, David Wu, David JH Wu</span></p>
+<p><strong>TL;DR:</strong> 该研究评估了大型语言模型（LLMs）在生成电子会诊结构化模板方面的能力，发现模型虽然能生成全面内容，但存在模板过长和优先级排序问题。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 研究动机是通过评估LLMs生成临床会诊模板的能力，探索其在医疗信息交换中的潜力，同时揭示当前模型的局限。</p>
+<p><strong>Result:</strong> 结果显示，模型如o3在全面性上表现优异（达92.2%），但在模板长度和优先级排序上表现不佳，尤其在精神病学等叙事驱动领域更差。</p>
+<p><strong>Insight:</strong> 研究表明LLMs在医疗信息交换中有潜力，但需改进评估方法以更好地捕捉临床优先级和时间限制下的表现。</p>
+<p><strong>Abstract:</strong> This study evaluates the capacity of large language models (LLMs) to generate structured clinical consultation templates for electronic consultation. Using 145 expert-crafted templates developed and routinely used by Stanford’s eConsult team, we assess frontier models – including o3, GPT-4o, Kimi K2, Claude 4 Sonnet, Llama 3 70B, and Gemini 2.5 Pro – for their ability to produce clinically coherent, concise, and prioritized clinical question schemas. Through a multi-agent pipeline combining prompt optimization, semantic autograding, and prioritization analysis, we show that while models like o3 achieve high comprehensiveness (up to 92.2%), they consistently generate excessively long templates and fail to correctly prioritize the most clinically important questions under length constraints. Performance varies across specialties, with significant degradation in narrative-driven fields such as psychiatry and pain medicine. Our findings demonstrate that LLMs can enhance structured clinical information exchange between physicians, while highlighting the need for more robust evaluation methods that capture a model’s ability to prioritize clinically salient information within the time constraints of real-world physician communication.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="21-CSIRO-LT-at-SemEval-2025-Task-11-Adapting-LLMs-for-Emotion-Recognition-for-Multiple-Languages-cs-CLPDF"><a href="#21-CSIRO-LT-at-SemEval-2025-Task-11-Adapting-LLMs-for-Emotion-Recognition-for-Multiple-Languages-cs-CLPDF" class="headerlink" title="[21] CSIRO-LT at SemEval-2025 Task 11: Adapting LLMs for Emotion Recognition for Multiple Languages cs.CLPDF"></a>[21] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01161">CSIRO-LT at SemEval-2025 Task 11: Adapting LLMs for Emotion Recognition for Multiple Languages</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01161" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Jiyu Chen, Necva Bölücü, Sarvnaz Karimi, Diego Mollá, Cécile L. Paris</span></p>
+<p><strong>TL;DR:</strong> 论文研究了在多语言情感识别任务中，如何通过LLM的任务适应策略提升性能，发现对每种语言单独使用LoRA微调预训练的多语言LLM效果最佳。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 多语言环境下情感表达的多样性和文化差异使得情感识别极具挑战性。SemEval 2025 Task 11旨在探索如何基于文本片段识别多语言情感及其强度。</p>
+<p><strong>Result:</strong> 结果显示，对每种语言单独使用LoRA微调预训练的多语言LLM在情感识别任务中表现最优。</p>
+<p><strong>Insight:</strong> 参数高效的微调方法（如LoRA）在多语言情感识别任务中具有重要价值，尤其是针对不同语言单独优化时效果显著。</p>
+<p><strong>Abstract:</strong> Detecting emotions across different languages is challenging due to the varied and culturally nuanced ways of emotional expressions. The \textit{Semeval 2025 Task 11: Bridging the Gap in Text-Based emotion} shared task was organised to investigate emotion recognition across different languages. The goal of the task is to implement an emotion recogniser that can identify the basic emotional states that general third-party observers would attribute to an author based on their written text snippet, along with the intensity of those emotions. We report our investigation of various task-adaptation strategies for LLMs in emotion recognition. We show that the most effective method for this task is to fine-tune a pre-trained multilingual LLM with LoRA setting separately for each language.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="22-Bridging-LLMs-and-Symbolic-Reasoning-in-Educational-QA-Systems-Insights-from-the-XAI-Challenge-at-IJCNN-2025-cs-CLPDF"><a href="#22-Bridging-LLMs-and-Symbolic-Reasoning-in-Educational-QA-Systems-Insights-from-the-XAI-Challenge-at-IJCNN-2025-cs-CLPDF" class="headerlink" title="[22] Bridging LLMs and Symbolic Reasoning in Educational QA Systems: Insights from the XAI Challenge at IJCNN 2025 cs.CLPDF"></a>[22] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01263">Bridging LLMs and Symbolic Reasoning in Educational QA Systems: Insights from the XAI Challenge at IJCNN 2025</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01263" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Long S. T. Nguyen, Khang H. N. Vo, Thu H. A. Nguyen, Tuan C. Bui, Duc Q. Nguyen</span></p>
+<p><strong>TL;DR:</strong> 本文分析了2025年IJCNN会议上举办的XAI挑战赛，探讨了如何结合大语言模型（LLM）与符号推理构建透明且可解释的教育问答系统。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 随着AI在教育领域的深入应用，透明性和可解释性需求日益增长。然而，现有AI竞赛很少直接关注教育场景中的XAI问题。</p>
+<p><strong>Result:</strong> 挑战赛为未来XAI教育系统和研究提供了实用见解，展示了LLM与符号推理结合的实际可行性。</p>
+<p><strong>Insight:</strong> 在教育场景中，逻辑解释和透明性是AI系统的关键需求，LLM与符号推理的协同可以提高可信度和实用性。</p>
+<p><strong>Abstract:</strong> The growing integration of Artificial Intelligence (AI) into education has intensified the need for transparency and interpretability. While hackathons have long served as agile environments for rapid AI prototyping, few have directly addressed eXplainable AI (XAI) in real-world educational contexts. This paper presents a comprehensive analysis of the XAI Challenge 2025, a hackathon-style competition jointly organized by Ho Chi Minh City University of Technology (HCMUT) and the International Workshop on Trustworthiness and Reliability in Neurosymbolic AI (TRNS-AI), held as part of the International Joint Conference on Neural Networks (IJCNN 2025). The challenge tasked participants with building Question-Answering (QA) systems capable of answering student queries about university policies while generating clear, logic-based natural language explanations. To promote transparency and trustworthiness, solutions were required to use lightweight Large Language Models (LLMs) or hybrid LLM-symbolic systems. A high-quality dataset was provided, constructed via logic-based templates with Z3 validation and refined through expert student review to ensure alignment with real-world academic scenarios. We describe the challenge’s motivation, structure, dataset construction, and evaluation protocol. Situating the competition within the broader evolution of AI hackathons, we argue that it represents a novel effort to bridge LLMs and symbolic reasoning in service of explainability. Our findings offer actionable insights for future XAI-centered educational systems and competitive research initiatives.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="23-Prompting-Large-Language-Models-with-Partial-Knowledge-for-Answering-Questions-with-Unseen-Entities-cs-CLPDF"><a href="#23-Prompting-Large-Language-Models-with-Partial-Knowledge-for-Answering-Questions-with-Unseen-Entities-cs-CLPDF" class="headerlink" title="[23] Prompting Large Language Models with Partial Knowledge for Answering Questions with Unseen Entities cs.CLPDF"></a>[23] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01290">Prompting Large Language Models with Partial Knowledge for Answering Questions with Unseen Entities</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01290" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Zhichao Yan, Jiapu Wang, Jiaoyan Chen, Yanyan Wang, Hongye Tan</span></p>
+<p><strong>TL;DR:</strong> 论文提出了一种新视角，通过部分相关知识“唤醒”大型语言模型（LLMs）的能力，以回答涉及未见过实体的问题，优于传统基于嵌入相似性的方法。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 传统RAG系统在部分相关知识利用上存在挑战，尤其在知识库不完整时。论文探索了LLMs能否利用其内部的部分相关知识提升表现。</p>
+<p><strong>Result:</strong> 在知识图谱QA数据集上，基于唤醒的方法优于传统嵌入相似性方法，尤其在处理未见实体时表现更好。</p>
+<p><strong>Insight:</strong> 部分相关知识可以提升LLMs表现，尤其在现实应用中知识库不完整时，传统方法易受噪声干扰，唤醒方法更稳健。</p>
+<p><strong>Abstract:</strong> Retrieval-Augmented Generation (RAG) shows impressive performance by supplementing and substituting parametric knowledge in Large Language Models (LLMs). Retrieved knowledge can be divided into three types: explicit answer evidence, implicit answer clue, and insufficient answer context which can be further categorized into totally irrelevant and partially relevant information. Effectively utilizing partially relevant knowledge remains a key challenge for RAG systems, especially in incomplete knowledge base retrieval. Contrary to the conventional view, we propose a new perspective: LLMs can be awakened via partially relevant knowledge already embedded in LLMs. To comprehensively investigate this phenomenon, the triplets located in the gold reasoning path and their variants are used to construct partially relevant knowledge by removing the path that contains the answer. We provide theoretical analysis of the awakening effect in LLMs and support our hypothesis with experiments on two Knowledge Graphs (KGs) Question Answering (QA) datasets. Furthermore, we present a new task, Unseen Entity KGQA, simulating real-world challenges where entity linking fails due to KG incompleteness. Our awakening-based approach demonstrates greater efficacy in practical applications, outperforms traditional methods that rely on embedding-based similarity which are prone to returning noisy information.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="24-KEDAS-Knowledge-Editing-Alignment-with-Diverse-Augmentation-and-Self-adaptive-Inference-cs-CLPDF"><a href="#24-KEDAS-Knowledge-Editing-Alignment-with-Diverse-Augmentation-and-Self-adaptive-Inference-cs-CLPDF" class="headerlink" title="[24] KEDAS: Knowledge Editing Alignment with Diverse Augmentation and Self-adaptive Inference cs.CLPDF"></a>[24] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01302">KEDAS: Knowledge Editing Alignment with Diverse Augmentation and Self-adaptive Inference</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01302" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Chenming Tang, Yutong Yang, Yunfang Wu</span></p>
+<p><strong>TL;DR:</strong> KEDAS提出了一种通过多样化增强和自适应推理的知识编辑对齐方法，显著提升了大型语言模型在知识编辑任务中的表现。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 现有知识编辑方法主要依赖参数级编辑或检索方法，未能很好地平衡编辑效果和模型能力的保留。KEDAS旨在更高效地对齐模型与编辑后的知识。</p>
+<p><strong>Result:</strong> 在四个数据集、三种LLM和三种设置下，KEDAS在35&#x2F;36情况下表现最佳，编辑成功率和模型能力保留显著优于基线。</p>
+<p><strong>Insight:</strong> KEDAS通过多样化和自适应机制平衡了编辑效果与模型能力的保留，为知识编辑提供了一种高效的范式。</p>
+<p><strong>Abstract:</strong> Knowledge editing aims to modify outdated knowledge in large language models (LLMs) efficiently while retaining their powerful capabilities. Most existing methods rely on either parameter-level editing or retrieval-based approaches. In this work, we propose Knowledge Editing alignment with Diverse Augmentation and Self-adaptive inference (KEDAS) to better align LLMs with knowledge editing. In the alignment phase, LLMs learn to apply in-context edited knowledge via low-rank adaptation. During editing, we design a diverse edit augmentation technique to improve the recall of edits. After that, a self-adaptive post-alignment inference mechanism is proposed, in which a filter-based smart retriever is employed to perform a dynamic selection of inference routing. Specifically, irrelevant queries will go through the original pre-alignment model directly, while relevant ones, together with their related edits, go through the model with aligned adapters activated. In experiments, KEDAS secures the highest overall performance scores in 35 out of 36 cases across four datasets with three LLMs on three settings, surpassing its strong knowledge editing alignment counterpart by about 19.8 harmonic mean scores of edit success, locality and portability and outperforming both parameter editing and retrieval-based baselines significantly. Analysis of computational cost and performance on general tasks further validates the robustness and efficiency of KEDAS, indicating that it presents an ideal paradigm of knowledge editing alignment.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="25-D-SCoRE-Document-Centric-Segmentation-and-CoT-Reasoning-with-Structured-Export-for-QA-CoT-Data-Generation-cs-CL-cs-AIPDF"><a href="#25-D-SCoRE-Document-Centric-Segmentation-and-CoT-Reasoning-with-Structured-Export-for-QA-CoT-Data-Generation-cs-CL-cs-AIPDF" class="headerlink" title="[25] D-SCoRE: Document-Centric Segmentation and CoT Reasoning with Structured Export for QA-CoT Data Generation cs.CL | cs.AIPDF"></a>[25] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01309">D-SCoRE: Document-Centric Segmentation and CoT Reasoning with Structured Export for QA-CoT Data Generation</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL | cs.AI</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01309" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Weibo Zhou, Lingbo Li, Shangsong Liang</span></p>
+<p><strong>TL;DR:</strong> D-SCoRE 是一个无需训练的流程，利用大语言模型（LLM）和提示工程生成高质量、多样化的 QA 数据集，支持领域适应性的监督微调（SFT）。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 现有的高质量 QA 数据集稀缺且成本高，限制了领域特定 LLM 的 SFT 性能。D-SCoRE 旨在低成本、高效地生成多样化的 QA 数据集。</p>
+<p><strong>Result:</strong> 生成的 QA 数据集在 SQuADShifts 和 Covid-QA 测试集上表现优于其他方法，且能在 90 秒内为 100-200 词文本生成 6 个 QA-CoT 对。</p>
+<p><strong>Insight:</strong> D-SCoRE 展示了无需训练即可高效生成高质量 QA 数据集的潜力，为领域适应性的 LLM 微调提供了新思路。</p>
+<p><strong>Abstract:</strong> The scarcity and high cost of high-quality question-answering (QA) datasets hinder supervised fine-tuning (SFT) for domain-specific large language models (LLMs). To address this, we introduce D-SCoRE, a training-free pipeline that utilizes LLMs and prompt engineering to produce diverse, high-quality QA datasets from arbitrary textual sources. D-SCoRE integrates $\textbf{D}$ocument-centric processing, $\textbf{S}$egmentation, $\textbf{Co}$T $\textbf{R}$easoning, and structured $\textbf{E}$xport to generate QA-COT datasets tailored for domain-aware SFT. Multi-dimensional control mechanisms, such as semantic role transformation, question type balancing, and counterfactual materials, enhance diversity and relevance, overcoming limitations of existing QA generation. LLMs fine-tuned on D-SCoRE-generated QA datasets, and human-annotated QA datasets (SQuAD, Covid-QA) are evaluated on SQuADShifts and Covid-QA test sets, with D-SCoRE outperforming across most domains. D-SCoRE generates six QA-CoT pairs with four-option counterfactual materials per 100-200-word text in 90 seconds using an 8B LLM on consumer-grade hardware. Its simplicity and scalability enable efficient QA generation and high-performance fine-tuning across domains.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="26-From-Query-to-Logic-Ontology-Driven-Multi-Hop-Reasoning-in-LLMs-cs-CL-cs-AIPDF"><a href="#26-From-Query-to-Logic-Ontology-Driven-Multi-Hop-Reasoning-in-LLMs-cs-CL-cs-AIPDF" class="headerlink" title="[26] From Query to Logic: Ontology-Driven Multi-Hop Reasoning in LLMs cs.CL | cs.AIPDF"></a>[26] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01424">From Query to Logic: Ontology-Driven Multi-Hop Reasoning in LLMs</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL | cs.AI</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01424" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Haonan Bian, Yutao Qi, Rui Yang, Yuanxi Che, Jiaqian Wang</span></p>
+<p><strong>TL;DR:</strong> LLMs在多跳问答任务中表现受限，ORACLE框架通过结合知识图谱和逻辑推理链提升性能。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> LLMs在多跳问答任务中因无法捕捉实体间深层关系而受限，需引入结构化推理解决。</p>
+<p><strong>Result:</strong> 在多个MQA基准测试中表现优异，生成的推理链更逻辑化和可解释。</p>
+<p><strong>Insight:</strong> 结合知识图谱和逻辑推理可显著提升LLMs在复杂推理任务中的能力。</p>
+<p><strong>Abstract:</strong> Large Language Models (LLMs), despite their success in question answering, exhibit limitations in complex multi-hop question answering (MQA) tasks that necessitate non-linear, structured reasoning. This limitation stems from their inability to adequately capture deep conceptual relationships between entities. To overcome this challenge, we present <strong>ORACLE</strong> (<strong>O</strong>ntology-driven <strong>R</strong>easoning <strong>A</strong>nd <strong>C</strong>hain for <strong>L</strong>ogical <strong>E</strong>ucidation), a training-free framework that combines LLMs’ generative capabilities with the structural benefits of knowledge graphs. Our approach operates through three stages: (1) dynamic construction of question-specific knowledge ontologies using LLMs, (2) transformation of these ontologies into First-Order Logic reasoning chains, and (3) systematic decomposition of the original query into logically coherent sub-questions. Experimental results on several standard MQA benchmarks show that our framework achieves highly competitive performance, rivaling current state-of-the-art models like DeepSeek-R1. Detailed analyses further confirm the effectiveness of each component, while demonstrating that our method generates more logical and interpretable reasoning chains than existing approaches.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="27-Towards-Efficient-Medical-Reasoning-with-Minimal-Fine-Tuning-Data-cs-CLPDF"><a href="#27-Towards-Efficient-Medical-Reasoning-with-Minimal-Fine-Tuning-Data-cs-CLPDF" class="headerlink" title="[27] Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data cs.CLPDF"></a>[27] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01450">Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01450" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Xinlin Zhuang, Feilong Tang, Haolin Yang, Ming Hu, Huifa Li</span></p>
+<p><strong>TL;DR:</strong> 论文提出了一种新的数据选择策略DIQ，结合样本难度和梯度影响，优化医学推理任务的少样本微调效果。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 传统监督微调（SFT）依赖未过滤的数据集，包含冗余和低质量样本，导致计算成本高且性能不佳。现有的方法仅基于样本难度选择数据，忽视了梯度优化效用。</p>
+<p><strong>Result:</strong> 实验表明，仅用1%的DIQ选择数据即可匹配完整数据集的性能，10%的数据可超越基线。人类和LLM评估也验证了DIQ选择的数据质量更高。</p>
+<p><strong>Insight:</strong> 结合难度与梯度影响的数据选择比单纯依赖难度或规模扩展更高效，能显著提升医学推理任务的性能。</p>
+<p><strong>Abstract:</strong> Supervised Fine-Tuning (SFT) plays a pivotal role in adapting Large Language Models (LLMs) to specialized domains such as medical reasoning. However, existing SFT practices often rely on unfiltered datasets that contain redundant and low-quality samples, leading to substantial computational costs and suboptimal performance. Although existing methods attempt to alleviate this problem by selecting data based on sample difficulty, defined by knowledge and reasoning complexity, they overlook each sample’s optimization utility reflected in its gradient. Interestingly, we find that gradient-based influence alone favors easy-to-optimize samples that cause large parameter shifts but lack deep reasoning chains, while difficulty alone selects noisy or overly complex cases that fail to guide stable optimization. Based on this observation, we propose a data selection strategy, Difficulty-Influence Quadrant (DIQ), which prioritizes samples in the high-difficulty-high-influence quadrant to balance complex clinical reasoning with substantial gradient influence, enabling efficient medical reasoning with minimal fine-tuning data. Furthermore, Human and LLM-as-a-judge evaluations show that DIQ-selected subsets demonstrate higher data quality and generate clinical reasoning that is more aligned with expert practices in differential diagnosis, safety check, and evidence citation, as DIQ emphasizes samples that foster expert-like reasoning patterns. Extensive experiments on medical reasoning benchmarks demonstrate that DIQ enables models fine-tuned on only 1% of selected data to match full-dataset performance, while using 10% consistently outperforms the baseline, highlighting the superiority of principled data selection over brute-force scaling. The code and data are available at <a target="_blank" rel="noopener" href="https://github.com/mihara-bot/DIQ">https://github.com/mihara-bot/DIQ</a>.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="28-TeSent-A-Benchmark-Dataset-for-Fairness-aware-Explainable-Sentiment-Classification-in-Telugu-cs-CLPDF"><a href="#28-TeSent-A-Benchmark-Dataset-for-Fairness-aware-Explainable-Sentiment-Classification-in-Telugu-cs-CLPDF" class="headerlink" title="[28] TeSent: A Benchmark Dataset for Fairness-aware Explainable Sentiment Classification in Telugu cs.CLPDF"></a>[28] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01486">TeSent: A Benchmark Dataset for Fairness-aware Explainable Sentiment Classification in Telugu</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">cs.CL</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01486" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Vallabhaneni Raj Kumar, Ashwin S, Supriya Manna, Niladri Sett, Cheedella V S N M S Hema Harshitha</span></p>
+<p><strong>TL;DR:</strong> 论文提出了TeSent数据集，一个用于泰卢固语情感分类的基准数据集，包含26,150个句子，并支持可解释性和公平性评估。通过微调预训练模型和使用后验解释器，实验表明加入人类注释的合理性可以提升模型性能。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 泰卢固语作为印度重要的古典语言之一，在全球NLP和机器学习领域中缺乏高质量的标注资源。本文旨在填补这一空白，并推动以公平性和可解释性为核心的机器学习任务。</p>
+<p><strong>Result:</strong> 实验结果表明，加入合理性标注可以提升模型准确性，减少偏差，并使解释器输出更符合人类推理。</p>
+<p><strong>Insight:</strong> 1) 多语言NLP需要更多高质量的标注资源；2) 可解释性和公平性是机器学习任务的重要指标；3) 人类标注的合理性可以为模型优化提供新方向。</p>
+<p><strong>Abstract:</strong> In the Indian subcontinent, Telugu, one of India’s six classical languages, is the most widely spoken Dravidian Language. Despite its 96 million speaker base worldwide, Telugu remains underrepresented in the global NLP and Machine Learning landscape, mainly due to lack of high-quality annotated resources. This work introduces TeSent, a comprehensive benchmark dataset for sentiment classification, a key text classification problem, in Telugu. TeSent not only provides ground truth labels for the sentences, but also supplements with provisions for evaluating explainability and fairness, two critical requirements in modern-day machine learning tasks. We scraped Telugu texts covering multiple domains from various social media platforms, news websites and web-blogs to preprocess and generate 26,150 sentences, and developed a custom-built annotation platform and a carefully crafted annotation protocol for collecting the ground truth labels along with their human-annotated rationales. We then fine-tuned several SOTA pre-trained models in two ways: with rationales, and without rationales. Further, we provide a detailed plausibility and faithfulness evaluation suite, which exploits the rationales, for six widely used post-hoc explainers applied on the trained models. Lastly, we curate TeEEC, Equity Evaluation Corpus in Telugu, a corpus to evaluate fairness of Telugu sentiment and emotion related NLP tasks, and provide a fairness evaluation suite for the trained classifier models. Our experimental results suggest that training with rationales may improve model accuracy, reduce bias in models, and make the explainers’ output more aligned to human reasoning.</p>
+  </div>
+</details>
+
+<hr>
+<div id='eess.IV'></div>
+
+<h1 id="eess-IV-Back"><a href="#eess-IV-Back" class="headerlink" title="eess.IV [Back]"></a>eess.IV <a href="#toc">[Back]</a></h1><h3 id="29-ReCoSeg-Extended-Residual-Guided-Cross-Modal-Diffusion-for-Brain-Tumor-Segmentation-eess-IV-cs-CVPDF"><a href="#29-ReCoSeg-Extended-Residual-Guided-Cross-Modal-Diffusion-for-Brain-Tumor-Segmentation-eess-IV-cs-CVPDF" class="headerlink" title="[29] ReCoSeg++:Extended Residual-Guided Cross-Modal Diffusion for Brain Tumor Segmentation eess.IV | cs.CVPDF"></a>[29] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01058">ReCoSeg++:Extended Residual-Guided Cross-Modal Diffusion for Brain Tumor Segmentation</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">eess.IV | cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01058" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Sara Yavari, Rahul Nitin Pandya, Jacob Furst</span></p>
+<p><strong>TL;DR:</strong> 论文提出了一种名为ReCoSeg++的两阶段半监督框架，用于脑肿瘤分割，通过残差引导的跨模态扩散和轻量级U-Net提高分割精度，并在BraTS 2021数据集上达到显著性能提升。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 脑肿瘤的精确分割对临床诊断和治疗规划至关重要，但现有方法在更大、更异构的数据集上表现不足。ReCoSeg++旨在通过跨模态合成和残差引导优化解决这一问题。</p>
+<p><strong>Result:</strong> 在BraTS 2021数据集上，Dice分数达93.02%，IoU达86.7%，优于ReCoSeg在BraTS 2020的表现（Dice: 91.7%，IoU: 85.3%）。</p>
+<p><strong>Insight:</strong> 1. 残差图作为空间先验能有效提升分割性能；2. 轻量级U-Net结合跨模态特征在分割任务中表现优越；3. 切片过滤和阈值优化对处理大规模异构数据至关重要。</p>
+<p><strong>Abstract:</strong> Accurate segmentation of brain tumors in MRI scans is critical for clinical diagnosis and treatment planning. We propose a semi-supervised, two-stage framework that extends the ReCoSeg approach to the larger and more heterogeneous BraTS 2021 dataset, while eliminating the need for ground-truth masks for the segmentation objective. In the first stage, a residual-guided denoising diffusion probabilistic model (DDPM) performs cross-modal synthesis by reconstructing the T1ce modality from FLAIR, T1, and T2 scans. The residual maps, capturing differences between predicted and actual T1ce images, serve as spatial priors to enhance downstream segmentation. In the second stage, a lightweight U-Net takes as input the concatenation of residual maps, computed as the difference between real T1ce and synthesized T1ce, with T1, T2, and FLAIR modalities to improve whole tumor segmentation. To address the increased scale and variability of BraTS 2021, we apply slice-level filtering to exclude non-informative samples and optimize thresholding strategies to balance precision and recall. Our method achieves a Dice score of $93.02%$ and an IoU of $86.7%$ for whole tumor segmentation on the BraTS 2021 dataset, outperforming the ReCoSeg baseline on BraTS 2020 (Dice: $91.7%$, IoU: $85.3%$), and demonstrating improved accuracy and scalability for real-world, multi-center MRI datasets.</p>
+  </div>
+</details>
+
+<hr>
+<h3 id="30-Mobile-U-ViT-Revisiting-large-kernel-and-U-shaped-ViT-for-efficient-medical-image-segmentation-eess-IV-cs-CVPDF"><a href="#30-Mobile-U-ViT-Revisiting-large-kernel-and-U-shaped-ViT-for-efficient-medical-image-segmentation-eess-IV-cs-CVPDF" class="headerlink" title="[30] Mobile U-ViT: Revisiting large kernel and U-shaped ViT for efficient medical image segmentation eess.IV | cs.CVPDF"></a>[30] <a target="_blank" rel="noopener" href="https://arxiv.org/abs/2508.01064">Mobile U-ViT: Revisiting large kernel and U-shaped ViT for efficient medical image segmentation</a> <span style="background-color: #2980b9; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;">eess.IV | cs.CV</span><span style="background-color: #e74c3c; color: white; padding: 1.5px 8px; border-radius: 4px; font-size: 0.8em; font-weight: bold; vertical-align: middle; margin: 0 5px; user-select: none;"><a href="https://arxiv.org/pdf/2508.01064" target="_blank" style="color: white; text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 0 24 24" width="14px" fill="white" style="vertical-align: middle; margin-right: 3px;"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M20 2H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-8.5 7.5c0 .83-.67 1.5-1.5 1.5H9v2H7.5V7H10c.83 0 1.5.67 1.5 1.5v1zm5 2c0 .83-.67 1.5-1.5 1.5h-2.5V7H15c.83 0 1.5.67 1.5 1.5v3zm4-3H19v1h1.5V11H19v2h-1.5V7h3v1.5zM9 9.5h1v-1H9v1zM4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5.5h1v-3h-1v3z"/></svg>PDF</a></span></h3><p><span style="color: #7f8c8d; font-style: italic;">Fenghe Tang, Bingkun Nian, Jianrui Ding, Wenxin Ma, Quan Quan</span></p>
+<p><strong>TL;DR:</strong> Mobile U-ViT是一种针对医学图像分割的轻量级模型，通过结合大核CNN和U型ViT，实现了在资源受限设备上的高效运行。</p>
+<details style="background-color: #f6f8fa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; margin-top: 10px; margin-bottom: 20px;">
+  <summary style="background-color: #eaf2f8; color: #2980b9; padding: 6px 12px; border-radius: 6px; border: none; cursor: pointer; display: inline-block; font-weight: 600; font-size: 0.9em; user-select: none;">Details</summary>
+  <div style="margin-top: 10px;">
+
+<p><strong>Motivation:</strong> 医学图像分析需要在资源受限的移动设备上高效运行，但现有针对自然图像的轻量模型在医学任务上表现不佳。</p>
+<p><strong>Result:</strong> 在多个2D和3D医学数据集上达到SOTA性能，包括在未见数据集上的零样本测试。</p>
+<p><strong>Insight:</strong> 通过大核CNN和局部-全局-局部信息交换，Mobile U-ViT在轻量化的同时保持了高性能和泛化能力。</p>
+<p><strong>Abstract:</strong> In clinical practice, medical image analysis often requires efficient execution on resource-constrained mobile devices. However, existing mobile models-primarily optimized for natural images-tend to perform poorly on medical tasks due to the significant information density gap between natural and medical domains. Combining computational efficiency with medical imaging-specific architectural advantages remains a challenge when developing lightweight, universal, and high-performing networks. To address this, we propose a mobile model called Mobile U-shaped Vision Transformer (Mobile U-ViT) tailored for medical image segmentation. Specifically, we employ the newly purposed ConvUtr as a hierarchical patch embedding, featuring a parameter-efficient large-kernel CNN with inverted bottleneck fusion. This design exhibits transformer-like representation learning capacity while being lighter and faster. To enable efficient local-global information exchange, we introduce a novel Large-kernel Local-Global-Local (LGL) block that effectively balances the low information density and high-level semantic discrepancy of medical images. Finally, we incorporate a shallow and lightweight transformer bottleneck for long-range modeling and employ a cascaded decoder with downsample skip connections for dense prediction. Despite its reduced computational demands, our medical-optimized architecture achieves state-of-the-art performance across eight public 2D and 3D datasets covering diverse imaging modalities, including zero-shot testing on four unseen datasets. These results establish it as an efficient yet powerful and generalization solution for mobile medical image analysis. Code is available at <a target="_blank" rel="noopener" href="https://github.com/FengheTan9/Mobile-U-ViT">https://github.com/FengheTan9/Mobile-U-ViT</a>.</p>
+  </div>
+</details>
+
+<hr>
+
+</div> 
+
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+                <div class="icon arrow-left"></div>
+                <div class="post-link">
+                    <a href="/2025-08-07/">Prev</a>
+                </div>
+            
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/2025-08-05/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="post-comment">
+
+     
+
+     
+    
+    
+
+</div>
+     
+  
+</article>
+        </div>
+      </div>
+      
+      <div class="footer">
+    <div class="flex-container">
+        <div class="footer-text">
+            
+            
+            
+                Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & <a target="_blank" rel="noopener" href="https://github.com/zoeingwingkei/frame/">Frame</a>
+                
+        </div>
+    </div>
+</div>
+
+    </div>
+
+  </body>
+</html>
